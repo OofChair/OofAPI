@@ -11,7 +11,7 @@ client = sr_api.Client()
 @api.get("/")
 def read_root():
     return {
-        "Welcome to": "OofAPI",
+        "Welcome to": "PwnAPI",
         "Made with": "FastAPI",
         "FastAPI": "https://fastapi.tiangolo.com",
         "Copyright 2021": "OofChair https://oofchair.xyz",
@@ -19,8 +19,7 @@ def read_root():
     }
 
 
-@api.get("/dog")
+@api.get("/fact/dog")
 async def dog_fact():
     fact = await client.get_fact("dog")
-    image = await client.get_image("dog")
-    return {"fact": fact, "image": image}
+    return {"fact": fact}
