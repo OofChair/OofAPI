@@ -10,7 +10,7 @@ This API was created as a fun side project by [OofChair](https://github.com/OofC
 ##### Easy, make a new venv. (On Ubuntu)
 ###### If not already installed, install python3-venv.
 `sudo apt install python3-venv`<br>
-`python -m venv ~/venv` <br>
+`python3 -m venv ~/venv` <br>
 `source ~/venv/bin/activate`<br>
 `git clone https://github.com/PwnBot/OofAPI && cd PwnAPI`<br>
 `pip install fastapi uvicorn[standard] sr_api`<br>
