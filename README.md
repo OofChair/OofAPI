@@ -21,3 +21,14 @@ This API was created as a fun side project by [OofChair](https://github.com/OofC
 `cd source`<br>
 `uvicorn main:api` <br>
 ##### To run it so your changes happen in real time, run `uvicorn main:api --reload`.
+
+
+## Some questions you might have:
+
+### Why did you make this?
+
+##### Why not :^)
+
+### Why is this on the PwnBot profile instead of your personal GitHub profile?
+
+##### Why not :^)
