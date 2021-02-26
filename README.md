@@ -7,7 +7,9 @@ This API was created as a fun side project by [OofChair](https://github.com/OofC
 
 #### Want to run this yourself?
 
-##### Easy, make a new venv. (On Linux)
+##### Easy, make a new venv. (On Ubuntu)
+###### If not already installed, install python3-venv.
+`sudo apt install python3-venv`<br>
 `python -m venv ~/venv` <br>
 `source ~/venv/bin/activate`<br>
 `git clone https://github.com/PwnBot/OofAPI && cd PwnAPI`<br>
