@@ -1,4 +1,4 @@
-# PwnAPI
+# OofAPI
 
 This API was created as a fun side project by [OofChair](https://github.com/OofChair). <br><br> 
 ### This is **NOT FINISHED** and may not be for a while.

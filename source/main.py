@@ -11,7 +11,7 @@ client = sr_api.Client()
 @api.get("/")
 def read_root():
     return {
-        "Welcome to": "PwnAPI",
+        "Welcome to": "OofAPI",
         "Made with": "FastAPI",
         "FastAPI": "https://fastapi.tiangolo.com",
         "Copyright 2021": "OofChair https://oofchair.xyz",
