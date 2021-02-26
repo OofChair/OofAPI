@@ -10,7 +10,7 @@ This API was created as a fun side project by [OofChair](https://github.com/OofC
 ##### Easy, make a new venv. (On Linux)
 `python -m venv ~/venv` <br>
 `source ~/venv/bin/activate`<br>
-`git clone https://github.com/PwnBot/PwnAPI && cd PwnAPI`<br>
+`git clone https://github.com/PwnBot/OofAPI && cd PwnAPI`<br>
 `pip install fastapi uvicorn[standard] sr_api`<br>
 `cd source`<br>
 `uvicorn main:api` <br>
