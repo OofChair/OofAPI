@@ -1,4 +1,3 @@
-from typing import Optional
 import sr_api
 from fastapi import FastAPI
 
@@ -16,10 +15,11 @@ def read_root():
         "FastAPI": "https://fastapi.tiangolo.com",
         "Copyright 2021": "OofChair https://oofchair.xyz",
         "Version": __version__,
+        "Home page": "Coming soon!",
     }
 
 
-@api.get("/fact/dog")
+@api.get("/api/fact/dog")
 async def dog_fact():
     fact = await client.get_fact("dog")
     return {"fact": fact}
