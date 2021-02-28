@@ -1,5 +1,6 @@
 import sr_api
 from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
 
 __version__ = "0.0.1"
 api = FastAPI()
