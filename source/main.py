@@ -17,6 +17,7 @@ def read_root():
         "Copyright 2021": "OofChair https://oofchair.xyz",
         "Version": __version__,
         "Home page": "Coming soon!",
+        "Docs": "https://api.pwnbot.xyz/redoc",
     }
 
 
