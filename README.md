@@ -29,6 +29,3 @@ This API was created as a fun side project by [OofChair](https://github.com/OofC
 
 ##### Why not :^)
 
-### Why is this on the PwnBot profile instead of your personal GitHub profile?
-
-##### Why not :^)
