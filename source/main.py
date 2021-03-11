@@ -25,3 +25,8 @@ def read_root():
 async def dog_fact():
     fact = await client.get_fact("dog")
     return {"fact": fact}
+
+@api.get("/api/fact/cat")
+async def cat_fact():
+    fact = await client.get_fact("cat")
+    return {"fact": fact}
