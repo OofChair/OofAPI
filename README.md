@@ -13,7 +13,7 @@ This API was created as a fun side project by [OofChair](https://github.com/OofC
 `sudo apt install python3-venv`<br>
 `python3 -m venv ~/venv` <br>
 `source ~/venv/bin/activate`<br>
-`git clone https://github.com/PwnBot/OofAPI && cd PwnAPI`<br>
+`git clone https://github.com/OofChair/OofAPI && cd OofAPI`<br>
 `pip install fastapi uvicorn[standard] sr_api`<br>
 `cd source`<br>
 `uvicorn main:api` <br>
