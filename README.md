@@ -4,9 +4,6 @@ This API was created as a fun side project by [OofChair](https://github.com/OofC
 ### This is **NOT FINISHED** and may not be for a while.
 
 #### This was created using [FastAPI](https://fastapi.tiangolo.com) and uses the [sr_api](https://pypi.org/project/sr_api) pip package.
-
-## View a public instance [here](https://api.pwnbot.xyz)
-### The docs can be found [here](https://api.pwnbot.xyz/redoc)
 <br>
 
 #### Want to run this yourself?
